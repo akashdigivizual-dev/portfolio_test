@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { heroContent } from '@/utils/constants';
+import { heroContent } from '../../utils/constants';
 
 const Overlay = () => {
   return (
