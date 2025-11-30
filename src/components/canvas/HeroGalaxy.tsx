@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { Text, Center, Float, useCursor } from '@react-three/drei';
-import { heroContent } from '@/utils/constants';
+import { heroContent } from '../../utils/constants';
 import * as THREE from 'three';
 import { Vector3 } from 'three';
 

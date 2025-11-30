@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { Text, useScroll, useCursor } from '@react-three/drei';
 import * as THREE from 'three';
-import { projects } from '@/utils/constants';
+import { projects } from '../../utils/constants';
 
 interface ProjectData {
   id: number;

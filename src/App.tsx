@@ -1,6 +1,6 @@
 import { ErrorBoundary } from 'react-error-boundary';
-import Experience from '@/components/canvas/Experience';
-import Overlay from '@/components/layout/Overlay';
+import Experience from './components/canvas/Experience';
+import Overlay from './components/layout/Overlay';
 
 function ErrorFallback({ error }: { error: Error }) {
   return (

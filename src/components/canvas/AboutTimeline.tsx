@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { Text, Line, useScroll, Float, Sphere } from '@react-three/drei';
 import * as THREE from 'three';
-import { timelineData } from '@/utils/constants';
+import { timelineData } from '../../utils/constants';
 
 interface TimelineItem {
   year: string;

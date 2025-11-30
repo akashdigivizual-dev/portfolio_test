@@ -2,7 +2,7 @@ import { useRef, useMemo, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { Text, useScroll, Trail } from '@react-three/drei';
 import * as THREE from 'three';
-import { skills } from '@/utils/constants';
+import { skills } from '../../utils/constants';
 
 interface SkillData {
   name: string;
